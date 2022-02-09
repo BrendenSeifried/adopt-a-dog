@@ -1,3 +1,11 @@
+1) create supabase
+2) find whats already in code 
+3) add functions and list 
+4) ACP
+5) test
+
+
+
 # Supabase Dog Adoption App
 
 ## Learning Objectives
