@@ -17,10 +17,6 @@ window.addEventListener('load', async() =>{
     const dogs = await getDogs();
     console.log(dogs);
 
-    // for (let dog of dogs) {
-    //     const li = renderDogCard(dog);
-    //     dogListContainer.appened(li);
-    // }
     for (let dog of dogs) {
         const dDiv = renderDogCard(dog);
         dogListContainer.append(dDiv);
