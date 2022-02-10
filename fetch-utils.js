@@ -16,6 +16,7 @@ export async function getDog(id) {
     const dogID = await client.from('dogs').select('*').eq('id', id).single();
     // and return the response (checking for errors)
     //console.log(dogID);
+   
     return checkError(dogID);    
 }
 
